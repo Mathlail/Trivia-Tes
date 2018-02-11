@@ -7,5 +7,5 @@ target 'TriviaApp' do
 
   # Pods for TriviaApp
 pod 'Alamofire', '~> 4.5'
-
+pod 'MBProgressHUD', '~> 0.9'
 end

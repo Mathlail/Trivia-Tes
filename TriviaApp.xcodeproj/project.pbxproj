@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5913A03E202FC6DA00ECFC4F /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5913A03D202FC6DA00ECFC4F /* Loading.swift */; };
 		59CEBE57202C40160022C187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CEBE56202C40160022C187 /* AppDelegate.swift */; };
 		59CEBE59202C40160022C187 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CEBE58202C40160022C187 /* CategoryViewController.swift */; };
 		59CEBE5C202C40160022C187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59CEBE5A202C40160022C187 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		434BBC5CE666F4BBD09F8809 /* Pods-TriviaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TriviaApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TriviaApp/Pods-TriviaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5913A03D202FC6DA00ECFC4F /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
 		59CEBE53202C40160022C187 /* TriviaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriviaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59CEBE56202C40160022C187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59CEBE58202C40160022C187 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				59CEBE65202C40160022C187 /* Info.plist */,
 				59CEBE5D202C40160022C187 /* TriviaApp.xcdatamodeld */,
 				59D31757202D2AD8005B8286 /* QuizViewController.swift */,
+				5913A03D202FC6DA00ECFC4F /* Loading.swift */,
 			);
 			path = TriviaApp;
 			sourceTree = "<group>";
@@ -206,10 +209,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TriviaApp/Pods-TriviaApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -225,6 +230,7 @@
 			files = (
 				59CEBE59202C40160022C187 /* CategoryViewController.swift in Sources */,
 				59CEBE57202C40160022C187 /* AppDelegate.swift in Sources */,
+				5913A03E202FC6DA00ECFC4F /* Loading.swift in Sources */,
 				59CEBE5F202C40160022C187 /* TriviaApp.xcdatamodeld in Sources */,
 				59D31758202D2AD8005B8286 /* QuizViewController.swift in Sources */,
 			);
@@ -371,6 +377,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = InterviewTest.TriviaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -388,6 +395,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = InterviewTest.TriviaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

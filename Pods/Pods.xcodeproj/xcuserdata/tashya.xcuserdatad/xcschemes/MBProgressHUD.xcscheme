@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "78B3EDE2E61C3E3EDB3921E3BC9C15AF"
-               BlueprintName = "Pods-TriviaApp"
+               BlueprintIdentifier = "6B1714E816AE794962516E2ECBB40A5A"
+               BlueprintName = "MBProgressHUD"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "Pods-TriviaApp.framework">
+               BuildableName = "MBProgressHUD.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
